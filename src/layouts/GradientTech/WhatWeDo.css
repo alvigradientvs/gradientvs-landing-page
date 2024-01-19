@@ -1,0 +1,27 @@
+.what-we-do-container {
+  height: 100vh;
+}
+
+.what-we-do-description {
+  font-size: 16px;
+  color: #b9b2b2;
+}
+
+.card-section {
+  padding: 20px 100px;
+}
+
+.custom-card {
+  margin-right: 0;
+  width: 16rem;
+}
+
+.single-card {
+  color: black !important;
+}
+
+@media (max-width: 900px) {
+  .card-section {
+    padding: 20px 40px;
+  }
+}

@@ -1,0 +1,28 @@
+.partnership-container {
+  height: 100vh;
+}
+
+.partnership-text {
+  color: #915bea;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.partnership-description-text {
+  font-size: 38px;
+  /* margin: 10px 0px 0px; */
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .partnership-text {
+    font-size: 28px;
+  }
+
+  .partnership-description-text {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+}

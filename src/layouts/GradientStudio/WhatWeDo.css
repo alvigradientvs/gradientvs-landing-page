@@ -1,0 +1,16 @@
+.what-we-do-title {
+  font-size: 46px;
+  margin: 20px 0;
+}
+
+.what-we-do-content {
+  color: #b9b2b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container {
+  height: 110vh;
+  margin-top: 50px;
+}

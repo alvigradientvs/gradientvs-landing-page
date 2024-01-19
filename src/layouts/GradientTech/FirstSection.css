@@ -1,0 +1,42 @@
+/* GradientNav.css */
+.gradient-tech-background {
+  background: linear-gradient(
+    90deg,
+    rgba(180, 211, 251, 1) 20%,
+    rgb(116, 137, 234) 100%
+  );
+
+  .navlink:hover {
+    color: orange;
+  }
+}
+
+.gradient-tech-title,
+.gradient-tech-content,
+.partner-with-us {
+  margin-left: 100px;
+}
+
+.gradient-tech-content {
+  font-size: 50px;
+  padding: 40px 0;
+  width: 500px;
+}
+
+.build-with-us {
+  font-size: 25px;
+  margin-left: 90px;
+}
+
+.first-section-container {
+  height: 100vh;
+}
+
+@media (max-width: 900px) {
+  .gradient-tech-title,
+  .gradient-tech-content,
+  .build-with-us {
+    margin-left: 0px;
+    padding: 20px 0;
+  }
+}

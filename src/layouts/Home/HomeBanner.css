@@ -1,0 +1,6 @@
+.home-banner {
+  width: auto;
+  height: 600px;
+  object-fit: cover;
+  background: url("../../assets/home-banner.png") no-repeat center bottom/cover;
+}

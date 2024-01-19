@@ -1,0 +1,67 @@
+.projects {
+  background-color: white;
+  max-width: 100%;
+  text-align: center;
+}
+
+.projects-text {
+  font-size: 18px;
+  color: #955df1;
+  letter-spacing: 3px;
+}
+
+.projects-description-text {
+  font-size: 42px;
+  color: black;
+  font-weight: 500;
+}
+
+.projects-content-text {
+  color: #b9b2b2;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-image {
+  width: 205px;
+  height: 145px;
+  align-self: center;
+}
+
+.card-title {
+  color: #6b6b6b;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #6b6b6b;
+  font-size: 16px;
+}
+
+.learn-more {
+  color: #1a1b1f;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Ensure the learn more link aligns to the right of the card */
+.learn-more .btn {
+  margin-left: auto;
+}
+
+/* Add responsive padding and margin adjustments if necessary */
+@media (max-width: 767px) {
+  .projects {
+    padding: 0 15px;
+  }
+
+  /* Additional responsive styles if needed */
+}

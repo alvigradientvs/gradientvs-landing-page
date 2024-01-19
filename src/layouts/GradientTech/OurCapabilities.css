@@ -1,0 +1,19 @@
+.our-capabilities-container {
+  background: linear-gradient(
+    90deg,
+    rgba(180, 211, 251, 1) 20%,
+    rgb(116, 137, 234) 100%
+  );
+
+  .navlink:hover {
+    color: orange;
+  }
+}
+
+.how-we-work-title {
+  font-size: 28px;
+}
+
+.our-capabilities-description {
+  padding: 20px 60px;
+}

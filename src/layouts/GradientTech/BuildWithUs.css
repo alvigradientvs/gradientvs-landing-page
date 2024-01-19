@@ -1,0 +1,28 @@
+.gradient-tech-background {
+  background: linear-gradient(
+    90deg,
+    rgba(180, 211, 251, 1) 20%,
+    rgb(116, 137, 234) 100%
+  );
+
+  .navlink:hover {
+    color: orange;
+  }
+}
+
+.build-with-us-container {
+  padding: 100px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.build-with-us-section {
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 767px) {
+  .build-with-us-button {
+    width: 100%;
+  }
+}

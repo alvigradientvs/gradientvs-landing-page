@@ -1,0 +1,42 @@
+/* GradientNav.css */
+.gradient-studio-background {
+  background: linear-gradient(
+    90deg,
+    rgba(219, 143, 205, 1) 20%,
+    rgb(216, 94, 84) 100%
+  );
+
+  .navlink:hover {
+    color: orange;
+  }
+}
+
+.gradient-studio-title,
+.gradient-studio-content,
+.partner-with-us {
+  margin-left: 100px;
+}
+
+.gradient-studio-content {
+  font-size: 50px;
+  padding: 40px 0;
+  width: 500px;
+}
+
+.partner-with-us {
+  font-size: 25px;
+  padding-left: 0px;
+}
+
+.first-section-container {
+  height: 100vh;
+}
+
+@media (max-width: 900px) {
+  .gradient-studio-title,
+  .gradient-studio-content,
+  .partner-with-us {
+    margin-left: 0px;
+    padding: 20px 0;
+  }
+}
