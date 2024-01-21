@@ -1,6 +1,8 @@
 import { Nav, Navbar } from "react-bootstrap";
 
 function GradientNav() {
+  const NETLIFY_BASE_URL = import.meta.env.VITE_NETLIFY_BASE_URL;
+
   return (
     <Navbar
       expand="lg"
@@ -10,7 +12,7 @@ function GradientNav() {
     >
       <Navbar.Brand href="/" className="ms-4 ms-lg-5">
         <img
-          src="/src/assets/gradient-innovation.png"
+          src={`${NETLIFY_BASE_URL}/assets/gradient-innovation.png`}
           width="162"
           height="43"
           className="align-center"

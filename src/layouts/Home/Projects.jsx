@@ -3,6 +3,7 @@ import { ArrowRight } from "react-bootstrap-icons";
 import "./Projects.css";
 
 function Projects() {
+  const NETLIFY_BASE_URL = import.meta.env.VITE_NETLIFY_BASE_URL;
   const projects = [
     {
       title: "Home-based F&B Marketplace and Business Management Platform",
@@ -28,7 +29,7 @@ function Projects() {
   ];
 
   return (
-    <Container className="projects py-5 my-5 text-center">
+    <div className="projects py-5 my-5 text-center">
       <Row className="mb-4">
         <Col>
           <div className="projects-text mb-2">PROJECTS</div>
@@ -40,30 +41,26 @@ function Projects() {
           </div>
         </Col>
       </Row>
-      <Row className="px-5 mx-5 card-section">
-        {projects.map((projectNumber, index) => (
-          <Col md={4} sm={12} className="mb-4" key={index}>
-            <Card className="border-0">
-              <Card.Img
-                variant="top"
-                src={`/src/assets/project${projectNumber.imageSrc}.png`}
-                width="50px"
-                height="50px"
-                className="card-image"
-              />
-              <Card.Body>
-                <Col>
+      <div className="row-container">
+        <Row className="card-row">
+          {projects.map((projectNumber, index) => (
+            <Col md={4} sm={12} className="mb-4" key={index}>
+              <Card className="border-0 card">
+                <Card.Img
+                  variant="top"
+                  src={`${NETLIFY_BASE_URL}/assets/project${projectNumber.imageSrc}.png`}
+                  width="50px"
+                  height="50px"
+                  className="card-image"
+                />
+                <Card.Body>
                   <Card.Title className="my-4">
                     {projectNumber.title}
                   </Card.Title>
-                </Col>
-                <Col>
                   <Card.Text className="my-4">
                     Project description {projectNumber.description} will go
                     here. Replace with actual content.
                   </Card.Text>
-                </Col>
-                <Col>
                   <Button
                     variant="link"
                     href="#"
@@ -71,13 +68,13 @@ function Projects() {
                   >
                     Learn more <ArrowRight color="#6B6B6B" />
                   </Button>
-                </Col>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-    </Container>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </div>
+    </div>
   );
 }
 

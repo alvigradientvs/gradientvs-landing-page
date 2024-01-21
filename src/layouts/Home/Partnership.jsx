@@ -2,6 +2,8 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import "./Partnership.css";
 
 function Partnership() {
+  const NETLIFY_BASE_URL = import.meta.env.VITE_NETLIFY_BASE_URL;
+
   return (
     <div className="justify-content-center text-white bg-dark py-5 partnership-container">
       <Row>
@@ -18,7 +20,7 @@ function Partnership() {
             <Card className="bg-dark text-white border-0">
               <Card.Body>
                 <Card.Img
-                  src="/src/assets/gradient-studio-logo.png"
+                  src={`${NETLIFY_BASE_URL}/assets/gradient-studio-logo.png`}
                   width="300"
                   height="68"
                   className="object-fit-contain"
@@ -44,7 +46,7 @@ function Partnership() {
             <Card className="bg-dark text-white border-0">
               <Card.Body>
                 <Card.Img
-                  src="/src/assets/gradient-tech-logo.png"
+                  src={`${NETLIFY_BASE_URL}/assets/gradient-tech-logo.png`}
                   width="300"
                   height="68"
                   className="object-fit-contain"
