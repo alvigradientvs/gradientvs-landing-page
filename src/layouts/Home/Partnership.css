@@ -1,17 +1,17 @@
-.partnership-container {
-  height: 100vh;
-}
-
-.partnership-text {
-  color: #915bea;
-  font-size: 18px;
-  letter-spacing: 3px;
-}
-
 .partnership-description-text {
   font-size: 38px;
-  /* margin: 10px 0px 0px; */
   padding-bottom: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.partnership-row {
+  max-width: 1200px;
+  padding: 20px 100px;
+}
+
+.gradient-tech {
+  border-left: 1px solid white;
 }
 
 @media (max-width: 767px) {
@@ -24,5 +24,9 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+  }
+
+  .gradient-tech {
+    border-left: none;
   }
 }

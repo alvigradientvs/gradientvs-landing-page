@@ -1,4 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h2,
+.h2-poppins,
+h3,
+h6,
+span {
+  font-family: "Poppins", sans-serif;
+  color: #6b6b6b;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 42px;
+  color: black;
+  font-weight: 500;
+  margin: 10px 0px 0px;
+}
+
+.h2-poppins {
+  font-size: 38px;
+  color: white;
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h6 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.section-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #955df1;
+  letter-spacing: 1px;
+}
+
+.nav-container {
+  margin: 0 234px;
+  max-width: 100%;
+  display: flex;
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
+}
+
+.col-container {
+  display: block;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-row {
+  max-width: 1000px;
+  padding: 20px 100px;
+}
+
+.content-center {
+  max-width: 800px;
+  padding: 0px 100px 0px;
+}
+
+.build-with-us-button {
+  background-color: black;
+  margin-top: 60px;
+  border-color: white;
+  border-radius: 100px;
+  padding: 20px 55.5px;
+}
+
+.build-with-us-button:hover {
+  background-color: white;
+  color: black;
+  margin-top: 60px 0 82px;
+  border-color: white;
+  border-radius: 100px;
+  padding: 20px 55.5px;
 }

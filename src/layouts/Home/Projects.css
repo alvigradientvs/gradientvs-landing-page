@@ -4,22 +4,14 @@
   text-align: center;
 }
 
-.projects-text {
-  font-size: 18px;
-  color: #955df1;
-  letter-spacing: 3px;
-}
-
-.projects-description-text {
-  font-size: 42px;
-  color: black;
-  font-weight: 500;
-}
-
 .projects-content-text {
   color: #b9b2b2;
   margin-bottom: 20px;
   width: 100%;
+}
+
+.card {
+  height: 100%;
 }
 
 .card-img-top {
@@ -40,8 +32,7 @@
 }
 
 .card-text {
-  color: #6b6b6b;
-  font-size: 16px;
+  margin-top: 10px;
 }
 
 .learn-more {
@@ -49,19 +40,21 @@
   font-size: 14px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding-left: 0;
 }
 
-/* Ensure the learn more link aligns to the right of the card */
 .learn-more .btn {
   margin-left: auto;
 }
 
-/* Add responsive padding and margin adjustments if necessary */
+.card-row {
+  max-width: 1000px;
+  padding: 20px 100px;
+}
+
 @media (max-width: 767px) {
   .projects {
     padding: 0 15px;
   }
-
-  /* Additional responsive styles if needed */
 }

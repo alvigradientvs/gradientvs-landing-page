@@ -11,13 +11,13 @@ function FirstSection() {
       }}
     >
       <Col className="text-center">
-        <h1 className="my-5">
+        <h1 className="my-5 mt-1">
           We <i>turn ideas</i> into thriving ventures
         </h1>
-        <p>
-          We engineer, launch, and scale disruptive high-growth start-ups
-          together with entrepreneurs and corporations.
-        </p>
+        <h5 className="mx-auto first-section-desc mb-5">
+          We design, launch, and scale disruptive high-growth start-ups together
+          with entrepreneurs and corporations.
+        </h5>
         <Button className="mt-4 build-with-us-button">Build with us</Button>
       </Col>
     </Row>
