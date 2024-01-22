@@ -1,16 +1,10 @@
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ConsultationForm from "../../components/ConsultationForm";
 import "./ConsultationSession.css";
-import { useRef } from "react";
 
-function ConsultationSession({ setFormRef }) {
-  const refForm = useRef(null);
-
-  setFormRef(refForm);
-
+function ConsultationSession() {
   return (
     <div
-      ref={refForm}
       className="consultation justify-content-center py-5"
       style={{ height: "120vh" }}
     >
