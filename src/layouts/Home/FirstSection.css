@@ -1,38 +1,19 @@
 .parent-container {
   background-color: #212529;
-  
 }
 
-.first-text {
-  padding: 150px 0 30px;
-  font-size: 100px;
-}
-
-.build-with-us-button {
-  background-color: black;
-  margin-top: 60px 0 82px;
-  border-color: white;
-  border-radius: 100px;
-  padding: 20px 55.5px;
-}
-
-.build-with-us-button:hover {
-  background-color: white;
-  color: black;
-  margin-top: 60px 0 82px;
-  border-color: white;
-  border-radius: 100px;
-  padding: 20px 55.5px;
+.first-section-desc {
+  width: 600px;
 }
 
 @media (max-width: 767px) {
   .build-with-us-button {
-    width: 100%; /* Make the button full width on mobile */
-    margin-top: 20px; /* Adjust margin for better spacing */
+    width: 100%;
+    margin-top: 20px;
   }
 
   .build-with-us-button:hover {
-    width: 100%; /* Make the button full width on mobile */
-    margin-top: 20px; /* Adjust margin for better spacing */
+    width: 100%;
+    margin-top: 20px;
   }
 }
