@@ -9,7 +9,7 @@ function ConsultationForm() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", import.meta.env.VITE_FORM_ACCESS_KEY);
+    formData.append("access_key", "10f75aba-2ce9-409a-8f8e-cbc2e6f7621c");
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

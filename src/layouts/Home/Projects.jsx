@@ -3,7 +3,8 @@ import { ArrowRight } from "react-bootstrap-icons";
 import "./Projects.css";
 
 function Projects() {
-  const NETLIFY_BASE_URL = import.meta.env.VITE_NETLIFY_BASE_URL;
+  const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
+  
   const projects = [
     {
       title: "Home-based F&B Marketplace and Business Management Platform",

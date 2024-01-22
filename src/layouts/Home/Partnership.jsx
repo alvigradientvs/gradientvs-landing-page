@@ -2,7 +2,7 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import "./Partnership.css";
 
 function Partnership() {
-  const NETLIFY_BASE_URL = import.meta.env.VITE_NETLIFY_BASE_URL;
+  const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
 
   return (
     <div className="justify-content-center text-white bg-dark py-5">

@@ -1,7 +1,7 @@
 import { Nav, Navbar } from "react-bootstrap";
 
 function GradientNav() {
-  const NETLIFY_BASE_URL = import.meta.env.VITE_NETLIFY_BASE_URL;
+  const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
 
   return (
     <Navbar
