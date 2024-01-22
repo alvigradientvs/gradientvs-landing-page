@@ -1,25 +1,19 @@
-.footer-bg {
-  background-color: #000; /* Adjust the color to match the screenshot */
-  color: white;
+.custom-footer {
+  background-color: black;
+  padding: 20px 240px;
 }
 
-.footer-logo {
-  width: auto; /* Adjust as necessary */
-  height: auto; /* Adjust as necessary */
+.footer-row {
+  max-width: 1000px;
 }
 
-.footer-links a,
-.footer-social a {
-  color: white; /* If the links are white */
-  text-decoration: none;
-}
+@media (max-width: 767px) {
+  .custom-footer {
+    background-color: black;
+    padding: 20px 0px;
+  }
 
-/* Additional responsive styling as needed */
-@media (max-width: 768px) {
-  .footer-brand,
-  .footer-links,
-  .footer-social {
-    text-align: center;
-    margin-bottom: 10px;
+  .footer-row {
+    max-width: 100%;
   }
 }
