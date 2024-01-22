@@ -112,3 +112,9 @@ p {
   border-radius: 100px;
   padding: 20px 55.5px;
 }
+
+@media (max-width: 1221px) {
+  .nav-container {
+    margin: 0 84px;
+  }
+}

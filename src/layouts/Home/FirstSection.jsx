@@ -1,7 +1,11 @@
 import { Button, Col, Row } from "react-bootstrap";
 import "./FirstSection.css";
 
-function FirstSection() {
+function FirstSection({ formRef }) {
+  const handleClick = () => {
+    formRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <Row
       className="justify-content-center align-items-center bg-dark text-white px-5"
@@ -18,7 +22,9 @@ function FirstSection() {
           We design, launch, and scale disruptive high-growth start-ups together
           with entrepreneurs and corporations.
         </h5>
-        <Button className="mt-4 build-with-us-button">Build with us</Button>
+        <Button onClick={handleClick} className="mt-4 build-with-us-button">
+          Build with us
+        </Button>
       </Col>
     </Row>
   );
