@@ -17,3 +17,9 @@
     margin-top: 20px;
   }
 }
+
+@media (max-width: 670px) {
+  .first-section-desc {
+    width: 300px;
+  }
+}

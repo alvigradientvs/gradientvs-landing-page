@@ -5,7 +5,7 @@ function Footer() {
   const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
 
   return (
-    <footer className="custom-footer row py-5">
+    <footer className="custom-footer row py-5 gx-0">
       <Col className="pb-5">
         <a href="/">
           <Image
