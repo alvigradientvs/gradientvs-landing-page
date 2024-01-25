@@ -19,7 +19,7 @@ function HowWeWork() {
 
       <div className="row-container">
         <Row>
-          <Image src={`/assets/agile-scrum.png`} />
+          <Image src={`${NETLIFY_BASE_URL}/assets/agile-scrum.png`} />
         </Row>
       </div>
     </div>

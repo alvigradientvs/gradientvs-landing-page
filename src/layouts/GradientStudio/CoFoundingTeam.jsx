@@ -18,7 +18,7 @@ function CoFoundingTeam() {
       <Row className="text-center mt-5">
         <Col xs={6} md={4}>
           <Image
-            src={`/assets/gradient-studio-icon/design-icon.png`}
+            src={`${NETLIFY_BASE_URL}/assets/gradient-studio-icon/design-icon.png`}
             width="50"
             height="50"
           />
@@ -26,7 +26,7 @@ function CoFoundingTeam() {
         </Col>
         <Col xs={6} md={4}>
           <Image
-            src="/assets/gradient-studio-icon/development-icon.png"
+            src={`${NETLIFY_BASE_URL}/assets/gradient-studio-icon/development-icon.png`}
             width="50"
             height="50"
           />
@@ -35,7 +35,7 @@ function CoFoundingTeam() {
 
         <Col xs={6} md={4}>
           <Image
-            src={`/assets/gradient-studio-icon/finance-icon.png`}
+            src={`${NETLIFY_BASE_URL}/assets/gradient-studio-icon/finance-icon.png`}
             width="50"
             height="50"
           />
@@ -43,7 +43,7 @@ function CoFoundingTeam() {
         </Col>
         <Col xs={6} md={4}>
           <Image
-            src="/assets/gradient-studio-icon/legal-icon.png"
+            src={`${NETLIFY_BASE_URL}/assets/gradient-studio-icon/legal-icon.png`}
             width="50"
             height="50"
           />
@@ -51,7 +51,7 @@ function CoFoundingTeam() {
         </Col>
         <Col xs={6} md={4}>
           <Image
-            src={`/assets/gradient-studio-icon/finance-icon.png`}
+            src={`${NETLIFY_BASE_URL}/assets/gradient-studio-icon/finance-icon.png`}
             width="50"
             height="50"
           />
@@ -59,7 +59,7 @@ function CoFoundingTeam() {
         </Col>
         <Col xs={6} md={4}>
           <Image
-            src={`/assets/gradient-studio-icon/operations-icon.png`}
+            src={`${NETLIFY_BASE_URL}/assets/gradient-studio-icon/operations-icon.png`}
             width="50"
             height="50"
           />

@@ -18,6 +18,12 @@
   color: #b9b2b2;
 }
 
+@media (max-width: 1221px) {
+  .co-founding-container {
+    padding: 80px 300px;
+  }
+}
+
 @media (max-width: 1037px) {
   .co-founding-container {
     padding: 80px 200px;
