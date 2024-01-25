@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import CoFoundingTeam from "../layouts/GradientStudio/CoFoundingTeam";
 import FirstSection from "../layouts/GradientStudio/FirstSection";
 import HowWeWork from "../layouts/GradientStudio/HowWeWork";
@@ -12,6 +13,7 @@ function GradientStudio() {
       <HowWeWork />
       <CoFoundingTeam />
       <PartnerWithUs />
+      <Footer />
     </>
   );
 }
