@@ -1,3 +1,32 @@
+.co-founding-container {
+  height: 80vh;
+  padding: 80px 500px;
+}
+
+.superhuman-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.superhuman {
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+}
+
 .cofounding-content {
   color: #b9b2b2;
+}
+
+@media (max-width: 1037px) {
+  .co-founding-container {
+    padding: 80px 200px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .co-founding-container {
+    padding: 80px 30px;
+  }
 }

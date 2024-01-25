@@ -25,6 +25,11 @@ h1 {
   font-weight: 500;
 }
 
+.h1-montserrat {
+  font-size: 50px;
+  color: #ffffff;
+}
+
 h2 {
   font-size: 42px;
   color: black;
@@ -67,6 +72,11 @@ p {
   letter-spacing: 1px;
 }
 
+.text-gray {
+  font-family: "Poppins", sans-serif;
+  color: #b9b2b2;
+}
+
 .nav-container {
   margin: 0 234px;
   max-width: 100%;
@@ -94,6 +104,10 @@ p {
 .content-center {
   max-width: 800px;
   padding: 0px 100px 0px;
+}
+
+.full-height {
+  height: 130vh;
 }
 
 .build-with-us-button {

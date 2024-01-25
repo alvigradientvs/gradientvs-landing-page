@@ -11,32 +11,59 @@
   }
 }
 
-.gradient-studio-title,
-.gradient-studio-content,
-.partner-with-us {
-  margin-left: 100px;
+.gradient-studio-container {
+  height: 90vh;
 }
 
-.gradient-studio-content {
-  font-size: 50px;
-  padding: 40px 0;
-  width: 500px;
-}
-
-.partner-with-us {
-  font-size: 25px;
+.gradient-studio-text {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
   padding-left: 0px;
 }
 
-.first-section-container {
-  height: 100vh;
+.gradient-studio-title,
+.gradient-studio-content,
+.partner-with-us {
+  font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 900px) {
+.gradient-studio-first-section {
+  margin: 100px 200px;
+  padding-left: 60px;
+}
+
+.gradient-studio-content {
+  padding: 0;
+  font-weight: 400;
+  padding-right: 200px;
+}
+
+.partner-with-us {
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  .gradient-studio-first-section {
+    margin: 100px 0px;
+    padding-left: 0;
+  }
+
+  .gradient-studio-content {
+    line-height: 0.9;
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 1086px) {
+  .gradient-studio-first-section {
+    margin: 100px 100px;
+  }
+
   .gradient-studio-title,
   .gradient-studio-content,
   .partner-with-us {
-    margin-left: 0px;
     padding: 20px 0;
   }
 }

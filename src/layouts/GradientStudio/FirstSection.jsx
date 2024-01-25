@@ -6,6 +6,8 @@ import { Row } from "react-bootstrap";
 import { ArrowRight } from "react-bootstrap-icons";
 
 function FirstSection() {
+  const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
+
   return (
     <>
       <Navbar
@@ -13,10 +15,10 @@ function FirstSection() {
         expand="lg"
         className="gradient-studio-background pt-4"
       >
-        <Container>
-          <Navbar.Brand href="/" className="ms-5">
+        <div className="nav-container justify-content-between align-items-center w-100">
+          <Navbar.Brand href="/" className="ms-3">
             <img
-              src="/src/assets/gradient-labs.png"
+              src={`${NETLIFY_BASE_URL}/assets/gradient-labs.png`}
               width="183"
               height="53"
               className="align-center"
@@ -41,23 +43,21 @@ function FirstSection() {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
+        </div>
       </Navbar>
-      <Container
-        className="p-5 gradient-studio-background first-section-container"
-        fluid
-      >
-        <Row className="m-5 px-5 text-white">
-          <p className="gradient-studio-title">GRADIENT STUDIO</p>
+
+      <div className="row-container justify-content-start text-white gradient-studio-background gradient-studio-container">
+        <Row className="gradient-studio-first-section">
+          <div className="gradient-studio-text">GRADIENT STUDIO</div>
           <h1 className="gradient-studio-content">
             We collaborate with entrepreneurs and corporations to create,
             launch, and expand disruptive high-growth startups.
           </h1>
-          <h6 className="partner-with-us">
+          <div className="partner-with-us text-white">
             Partner With Us <ArrowRight />
-          </h6>
+          </div>
         </Row>
-      </Container>
+      </div>
     </>
   );
 }
