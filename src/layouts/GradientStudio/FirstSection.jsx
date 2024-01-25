@@ -1,9 +1,10 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "./FirstSection.css";
+
 import { Row } from "react-bootstrap";
 import { ArrowRight } from "react-bootstrap-icons";
+
+import "./FirstSection.css";
 
 function FirstSection() {
   const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
