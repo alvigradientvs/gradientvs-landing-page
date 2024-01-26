@@ -1,24 +1,52 @@
-.gradient-studio-background {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 143, 178, 1) 20%,
-    rgb(227, 120, 49) 100%
-  );
-}
-
 .partner-with-us-container {
-  padding: 100px;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
+  padding: 80px 300px;
+  height: 80vh;
 }
 
-.partner-with-us-section {
-  letter-spacing: 1.5px;
+.partner-with-us-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
 }
 
-@media (max-width: 767px) {
+.partner-with-us-description {
+  padding: 0 50px;
+}
+
+.partner-with-us-button {
+  width: 50%;
+  border-width: 1.5px;
+  padding: 20px 40px;
+  margin: 40px;
+}
+
+@media (max-width: 1037px) {
+  .partner-with-us-container {
+    padding: 80px 100px;
+    height: 100%;
+  }
+
   .partner-with-us-button {
-    width: 100%; /* Make the button full width on mobile */
+    width: 65%;
+  }
+
+  .partner-with-us-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1221px) {
+  .partner-with-us-container {
+    padding: 80px 150px;
+  }
+}
+
+@media (max-width: 699px) {
+  .partner-with-us-container {
+    padding: 80px 50px;
+  }
+
+  .partner-with-us-button {
+    padding: 10px;
+    margin: 0;
   }
 }

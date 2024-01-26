@@ -1,16 +1,26 @@
+.margin-top-container {
+  margin-top: 120px;
+}
+
 .what-we-do-title {
-  font-size: 46px;
-  margin: 20px 0;
+  font-weight: 500;
+  margin: 0px 0px 20px;
 }
 
-.what-we-do-content {
-  color: #b9b2b2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.icon-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 40px 0px;
 }
 
-.section-container {
-  height: 110vh;
-  margin-top: 50px;
+@media (max-width: 767px) {
+  .margin-top-container {
+    margin-top: 120px;
+    height: 100%;
+  }
+
+  .icon-title {
+    margin: 20px 0;
+  }
 }

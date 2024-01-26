@@ -1,21 +1,28 @@
-import { Container, Image, Row } from "react-bootstrap";
+import { Image, Row } from "react-bootstrap";
 import "./HowWeWork.css";
 
 function HowWeWork() {
+  const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
+
   return (
-    <Container fluid className="gradient-studio-background pt-5">
+    <div className="gradient-studio-background margin-top-container full-height">
       <Row className="text-center text-white">
-        <p className="venture-building-title">VENTURE-BUILDING PLAYBOOK</p>
-        <h1 className="mb-3">How We Work</h1>
-        <p>
+        <p className="section-text text-white venture-building-playbook">
+          VENTURE-BUILDING PLAYBOOK
+        </p>
+        <h2 className="how-we-work-title text-white">How We Work</h2>
+        <div className="text-gray text-white mb-5 mx-auto content-center">
           We start the company building process from scratch by identifying
           opportunities, rigorously testing assumptions, and creating products
-        </p>
+        </div>
       </Row>
-      <Row>
-        <Image src="/src/assets/agile-scrum.png" />
-      </Row>
-    </Container>
+
+      <div className="row-container">
+        <Row>
+          <Image src={`${NETLIFY_BASE_URL}/assets/agile-scrum.png`} />
+        </Row>
+      </div>
+    </div>
   );
 }
 
