@@ -22,9 +22,7 @@ function GradientNav() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="me-4 me-lg-5">
           <Nav className="ms-auto text-center ml-auto">
-            <Nav.Link href="/" target="_blank">
-              Gradient Studio
-            </Nav.Link>
+            <Nav.Link href="/gradient-studio">Gradient Studio</Nav.Link>
             <Nav.Link href="/" target="_blank">
               Gradient Tech
             </Nav.Link>
