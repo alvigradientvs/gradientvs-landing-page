@@ -1,19 +1,16 @@
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import "./BuildWithUs.css";
 
 function BuildWithUs() {
   return (
-    <Container
-      fluid
-      className="gradient-tech-background justify-content-center align-items-center text-white px-5"
-    >
+    <div className="gradient-tech-background text-white px-5">
       <Row>
-        <Col className="text-center partner-with-us-container">
-          <p className="my-5 partner-with-us-section">BUILD WITH US</p>
-          <h1 className="partner-with-us-title mb-4">
+        <Col className="text-center build-with-us-container">
+          <div className="section-text text-white">BUILD WITH US</div>
+          <div className="build-with-us-title mb-4 mt-5">
             Imagine and create your apps and digital products today
-          </h1>
-          <p className="partner-with-us-description">
+          </div>
+          <p className="build-with-us-description">
             Leverage your capabilities and take part in creating new companies
             with lasting competitive advantage.
           </p>
@@ -21,12 +18,13 @@ function BuildWithUs() {
             variant="outline-light"
             className="mt-4 rounded-pill partner-with-us-button px-5"
             size="lg"
+            href="www.gradientvs.com"
           >
             Build with us
           </Button>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 }
 

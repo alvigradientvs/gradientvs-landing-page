@@ -1,89 +1,83 @@
-import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import "./OurTechnologies.css";
 
 function OurTechnologies() {
   return (
-    <Container fluid>
-      <Row className="text-center pt-5">
-        <p>OUR TECHNOLOGIES</p>
-        <h1 className="how-we-work-title">How We Make Things</h1>
-        <p className="our-capabilities-description">
+    <div className="our-technologies-container">
+      <Row className="text-center">
+        <div className="section-text text-dark mb-4">OUR TECHNOLOGIES</div>
+        <h2 className="what-we-do-title">How We Make Things</h2>
+        <div className="text-gray mb-5 mx-auto content-center">
           We are ready to assist you in any way and at any point within the
           product development cycle.
-        </p>
+        </div>
       </Row>
-      <Row className="text-center m-5 px-5">
-        <Col className="px-5 mx-3">
-          <Card body className="w-50 tech-card">
+      <Row className="our-technologies-card-container">
+        <Col>
+          <div className="our-technologies-single-card">
             <Image
-              src="/src/assets/gradient-tech-icon/nextjs.png"
-              width="14px"
-              height="14px"
-              className="me-3"
+              src="/public/assets/gradient-tech-icon/technologies/nextjs.png"
+              className="tech-icon"
+              alt="icon-logo"
             />
-            NextJS
-          </Card>
+            <span className="text-dark tech-title">Next JS</span>
+          </div>
         </Col>
-        <Col className="px-5 mx-3">
-          <Card body className="w-50 tech-card">
+        <Col>
+          <div className="our-technologies-single-card">
             <Image
-              src="/src/assets/gradient-tech-icon/nextjs.png"
-              width="14px"
-              height="14px"
-              className="me-3"
+              src="/public/assets/gradient-tech-icon/technologies/reactjs.png"
+              className="tech-icon"
+              alt="icon-logo"
             />
-            NextJS
-          </Card>
+            <span className="text-dark tech-title">React JS</span>
+          </div>
         </Col>
-        <Col className="px-5 mx-3">
-          <Card body className="w-50 tech-card">
+        <Col>
+          <div className="our-technologies-single-card">
             <Image
-              src="/src/assets/gradient-tech-icon/nextjs.png"
-              width="14px"
-              height="14px"
-              className="me-3"
+              src="/public/assets/gradient-tech-icon/technologies/nodejs.png"
+              className="tech-icon"
+              alt="icon-logo"
             />
-            NextJS
-          </Card>
+            <span className="text-dark tech-title">Node JS</span>
+          </div>
         </Col>
       </Row>
 
-      <Row className="text-center m-5 px-5">
-        <Col className="px-5 mx-3">
-          <Card body className="w-50 tech-card">
+      <Row className="our-technologies-card-container">
+        <Col>
+          <div className="our-technologies-single-card">
             <Image
-              src="/src/assets/gradient-tech-icon/nextjs.png"
-              width="14px"
-              height="14px"
-              className="me-3"
+              src="/public/assets/gradient-tech-icon/technologies/aws.png"
+              className="tech-icon"
+              alt="icon-logo"
             />
-            NextJS
-          </Card>
+            <span className="text-dark tech-title">Amazon Web Services</span>
+          </div>
         </Col>
-        <Col className="px-5 mx-3">
-          <Card body className="w-50 tech-card">
+        <Col>
+          <div className="our-technologies-single-card">
             <Image
-              src="/src/assets/gradient-tech-icon/nextjs.png"
-              width="14px"
-              height="14px"
-              className="me-3"
+              src="/public/assets/gradient-tech-icon/technologies/flutter.png"
+              className="tech-icon"
+              alt="icon-logo"
             />
-            NextJS
-          </Card>
+            <span className="text-dark tech-title">Flutter</span>
+          </div>
         </Col>
-        <Col className="px-5 mx-3">
-          <Card body className="w-50 tech-card">
+        <Col>
+          <div className="our-technologies-single-card">
             <Image
-              src="/src/assets/gradient-tech-icon/nextjs.png"
-              width="14px"
-              height="14px"
-              className="me-3"
+              src="/public/assets/gradient-tech-icon/technologies/typescript.png"
+              className="tech-icon"
+              alt="icon-logo"
             />
-            NextJS
-          </Card>
+            <span className="text-dark tech-title">Typescript</span>
+          </div>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 }
 
