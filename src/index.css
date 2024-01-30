@@ -54,6 +54,11 @@ h5 {
   font-weight: 300;
 }
 
+.h5-poppins {
+  font-size: 18px;
+  font-weight: 800;
+}
+
 h6 {
   font-weight: 400;
   letter-spacing: 0.5px;

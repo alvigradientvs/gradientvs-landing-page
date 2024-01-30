@@ -1,6 +1,55 @@
+.our-technologies-container {
+  margin: 100px 0px;
+}
+
+.our-technologies-card-container {
+  margin: 30px 250px 10px;
+}
+
+.our-technologies-single-card {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.tech-title {
+  padding-left: 20px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10.5px;
+}
+
+.tech-icon {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 1221px) {
+  .our-technologies-card-container {
+    margin: 10px 150px;
+  }
+}
+
+@media (max-width: 991px) {
+  .our-technologies-card-container {
+    margin: 10px 50px;
+  }
+}
+
 @media (max-width: 767px) {
-  .tech-card {
-    margin: 0;
-    padding: 0;
+  .our-technologies-container {
+    margin-bottom: 30px;
+  }
+
+  .our-technologies-card-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .our-technologies-single-card {
+    margin: 0px 20px 20px;
   }
 }

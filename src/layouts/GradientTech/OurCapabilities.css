@@ -1,19 +1,70 @@
 .our-capabilities-container {
-  background: linear-gradient(
-    90deg,
-    rgba(180, 211, 251, 1) 20%,
-    rgb(116, 137, 234) 100%
-  );
+  padding-top: 100px;
+  height: 90vh;
+}
 
-  .navlink:hover {
-    color: orange;
+.building-process-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.row-card-container {
+  margin: 0px 200px;
+}
+
+@media (max-width: 1221px) {
+  .our-capabilities-container {
+    padding-top: 100px;
+    height: 130vh;
+  }
+
+  .capabilities-single-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .building-process-title {
+    padding-top: 30px;
+  }
+
+  .row-card-container {
+    margin: 0px 100px;
+    margin-bottom: 50px;
+    padding: 0px 0px 82px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1000px) {
+  .our-capabilities-container {
+    padding-top: 100px;
+    height: 150vh;
+  }
+
+  .building-process-title {
+    padding-top: 30px;
   }
 }
 
-.how-we-work-title {
-  font-size: 28px;
+@media (max-width: 767px) {
+  .our-capabilities-container {
+    height: 160vh;
+  }
+
+  .row-card-container {
+    margin: 0px 100px;
+    padding: 0px 0px 82px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 90vh;
+  }
 }
 
-.our-capabilities-description {
-  padding: 20px 60px;
+@media (max-width: 500px) {
+  .our-capabilities-container {
+    height: 240vh;
+  }
 }
