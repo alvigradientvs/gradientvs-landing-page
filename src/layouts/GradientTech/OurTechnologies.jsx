@@ -1,6 +1,8 @@
 import { Col, Image, Row } from "react-bootstrap";
 import "./OurTechnologies.css";
 
+const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
+
 function OurTechnologies() {
   return (
     <div className="our-technologies-container">
@@ -16,7 +18,7 @@ function OurTechnologies() {
         <Col>
           <div className="our-technologies-single-card">
             <Image
-              src="/public/assets/gradient-tech-icon/technologies/nextjs.png"
+              src={`${NETLIFY_BASE_URL}/assets/gradient-tech-icon/technologies/nextjs.png`}
               className="tech-icon"
               alt="icon-logo"
             />
@@ -26,7 +28,7 @@ function OurTechnologies() {
         <Col>
           <div className="our-technologies-single-card">
             <Image
-              src="/public/assets/gradient-tech-icon/technologies/reactjs.png"
+              src={`${NETLIFY_BASE_URL}/assets/gradient-tech-icon/technologies/reactjs.png`}
               className="tech-icon"
               alt="icon-logo"
             />
@@ -36,7 +38,7 @@ function OurTechnologies() {
         <Col>
           <div className="our-technologies-single-card">
             <Image
-              src="/public/assets/gradient-tech-icon/technologies/nodejs.png"
+              src={`${NETLIFY_BASE_URL}/assets/gradient-tech-icon/technologies/nodejs.png`}
               className="tech-icon"
               alt="icon-logo"
             />
@@ -49,7 +51,7 @@ function OurTechnologies() {
         <Col>
           <div className="our-technologies-single-card">
             <Image
-              src="/public/assets/gradient-tech-icon/technologies/aws.png"
+              src={`${NETLIFY_BASE_URL}/assets/gradient-tech-icon/technologies/aws.png`}
               className="tech-icon"
               alt="icon-logo"
             />
@@ -59,7 +61,7 @@ function OurTechnologies() {
         <Col>
           <div className="our-technologies-single-card">
             <Image
-              src="/public/assets/gradient-tech-icon/technologies/flutter.png"
+              src={`${NETLIFY_BASE_URL}/assets/gradient-tech-icon/technologies/flutter.png`}
               className="tech-icon"
               alt="icon-logo"
             />
@@ -69,7 +71,7 @@ function OurTechnologies() {
         <Col>
           <div className="our-technologies-single-card">
             <Image
-              src="/public/assets/gradient-tech-icon/technologies/typescript.png"
+              src={`${NETLIFY_BASE_URL}/assets/gradient-tech-icon/technologies/typescript.png`}
               className="tech-icon"
               alt="icon-logo"
             />
