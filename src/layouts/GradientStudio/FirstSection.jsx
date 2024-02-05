@@ -16,7 +16,7 @@ function FirstSection() {
         expand="lg"
         className="gradient-studio-background pt-4"
       >
-        <div className="nav-container justify-content-between align-items-center w-100">
+        <div className="nav-studio-and-tech-contaner justify-content-between align-items-center w-100">
           <Navbar.Brand href="/" className="ms-3">
             <img
               src={`${NETLIFY_BASE_URL}/assets/gradient-labs.png`}

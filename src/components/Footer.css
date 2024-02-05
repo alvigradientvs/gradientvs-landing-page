@@ -24,4 +24,8 @@
     flex-direction: column;
     padding-left: 60px;
   }
+
+  .footer-section {
+    margin-top: 10px;
+  }
 }
