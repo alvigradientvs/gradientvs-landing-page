@@ -5,7 +5,7 @@ function Footer() {
   const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
 
   return (
-    <footer className="custom-footer row py-5 gx-0">
+    <footer className="custom-footer row mx-0 py-5">
       <Col className="pb-5">
         <a href="/">
           <Image
@@ -20,7 +20,7 @@ function Footer() {
       <Col></Col>
       <Col></Col>
 
-      <Col>
+      <Col className="footer-section">
         <h3 className="pb-2">Pages</h3>
         <Nav className="flex-column">
           <Nav.Item className="mb-2">
@@ -36,7 +36,7 @@ function Footer() {
         </Nav>
       </Col>
 
-      <Col>
+      <Col className="footer-section">
         <h3 className="pb-2">Follow Us</h3>
         <Nav className="flex-column">
           <Nav.Item className="mb-2">
@@ -46,6 +46,7 @@ function Footer() {
           </Nav.Item>
         </Nav>
       </Col>
+
       <div className="text-center mt-5 text-white">
         Copyright &copy; {new Date().getFullYear()} Gradient Labs. All rights
         reserved.

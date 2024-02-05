@@ -7,13 +7,25 @@
   max-width: 1000px;
 }
 
+@media (max-width: 1221px) {
+  .custom-footer {
+    padding: 20px 150px;
+  }
+
+  .footer-section {
+    padding-left: 20px;
+  }
+}
+
 @media (max-width: 767px) {
   .custom-footer {
     background-color: black;
     padding: 20px 0px;
+    flex-direction: column;
+    padding-left: 60px;
   }
 
-  .footer-row {
-    max-width: 100%;
+  .footer-section {
+    margin-top: 10px;
   }
 }
