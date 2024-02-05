@@ -14,6 +14,23 @@
   border-left: 1px solid white;
 }
 
+.more-about-partnership {
+  background-color: black;
+  margin-top: 60px;
+  border-color: white;
+  border-radius: 100px;
+  padding: 20px 55.5px;
+}
+
+.more-about-partnership:hover {
+  background-color: white;
+  color: black;
+  margin-top: 60px 0 82px;
+  border-color: white;
+  border-radius: 100px;
+  padding: 20px 55.5px;
+}
+
 @media (max-width: 767px) {
   .partnership-text {
     font-size: 28px;

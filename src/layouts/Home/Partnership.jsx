@@ -33,7 +33,7 @@ function Partnership() {
                   the process, from ideation to execution.
                 </Card.Text>
                 <Button
-                  className="build-with-us-button"
+                  className="more-about-partnership"
                   variant="dark"
                   size="sm"
                 >
@@ -60,7 +60,7 @@ function Partnership() {
                   solutions that cater to the unique needs of our clients.
                 </Card.Text>
                 <Button
-                  className="build-with-us-button"
+                  className="more-about-partnership"
                   variant="dark"
                   size="sm"
                 >
