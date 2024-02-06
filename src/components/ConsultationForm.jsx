@@ -1,6 +1,8 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
 
+import "./ConsultationForm.css";
+
 function ConsultationForm() {
   const [result, setResult] = React.useState("");
 
@@ -26,8 +28,8 @@ function ConsultationForm() {
   };
 
   return (
-    <>
-      <Form onSubmit={onSubmit} className="w-75">
+    <div className="form-container">
+      <Form onSubmit={onSubmit} className="form-input-container">
         <Form.Group controlId="formEmail" className="mb-3">
           <Form.Control
             type="email"
@@ -83,7 +85,7 @@ function ConsultationForm() {
         <br />
         <span>{result}</span>
       </Form>
-    </>
+    </div>
   );
 }
 

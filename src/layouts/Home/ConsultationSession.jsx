@@ -12,14 +12,13 @@ function ConsultationSession({ setFormRef }) {
     <div
       ref={refForm}
       className="consultation justify-content-center py-5"
-      style={{ height: "120vh" }}
     >
       <Row className="consultation-section w-100 text-center">
         <Col>
           <h5 className="text-white">READY TO SHAPE THE FUTURE?</h5>
         </Col>
       </Row>
-      <Row className="h2-poppins w-100 text-center text-white justify-content-center">
+      <Row className="h2-poppins w-lg-100 text-center text-white justify-content-center">
         Schedule a session for consultation
       </Row>
       <Row className="consultation-description text-center">
@@ -31,9 +30,7 @@ function ConsultationSession({ setFormRef }) {
           specific needs.
         </p>
       </Row>
-      <div className="row-container">
         <ConsultationForm />
-      </div>
     </div>
   );
 }
