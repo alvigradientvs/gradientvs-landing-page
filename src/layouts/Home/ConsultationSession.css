@@ -1,22 +1,17 @@
 .consultation {
-  padding: 50px 20px; /* Adjusted for better mobile view */
+  padding: 50px 20px;
   background-color: #212529;
-}
-
-/* Media query for larger devices */
-@media (min-width: 768px) {
-  .consultation {
-    padding: 0 150px;
-    margin-left: 0;
-    margin-right: 0;
-    height: 130vh;
-  }
+  height: auto;
 }
 
 .consultation-section,
 .consultation-title,
 .consultation-description {
   text-align: center;
+}
+
+.consultation-description {
+  margin: 15px 370px;
 }
 
 .consultation-section h2,
@@ -32,4 +27,32 @@
 
 .consultation-description b {
   color: white;
+}
+
+@media (max-width: 1221px) {
+  .consultation {
+    padding: 0 150px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .consultation-description {
+    margin: 10px 150px;
+  }
+}
+
+@media (max-width: 1020px) { 
+  .consultation-description {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .consultation {
+    padding: 0 50px;
+  }
+
+  .consultation-description {
+    margin: 10px;
+  }
 }

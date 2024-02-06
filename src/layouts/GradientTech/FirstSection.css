@@ -1,25 +1,8 @@
-/* GradientNav.css */
 .gradient-tech-background {
   background: linear-gradient(
     90deg,
     rgba(180, 211, 251, 1) 20%,
     rgb(116, 137, 234) 100%
-  );
-
-  .navlink:hover {
-    color: orange;
-  }
-}
-
-.gradient-tech-container {
-  height: 90vh;
-}
-
-.gradient-tech-background {
-  background: linear-gradient(
-    90deg,
-    rgba(219, 143, 205, 1) 20%,
-    rgb(216, 94, 84) 100%
   );
 
   .navlink:hover {
