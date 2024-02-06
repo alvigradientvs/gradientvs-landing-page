@@ -5,8 +5,7 @@
 
 h1,
 h4,
-h5,
-h6 {
+h5 {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -178,6 +177,10 @@ p {
   .navbar-nav .nav-link {
     text-align: center;
   }
+  
+  .h2-poppins {
+    font-size: 34px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -187,5 +190,9 @@ p {
 
   .nav-container {
     margin: 0 30px;
+  }
+
+  .h2-poppins {
+    font-size: 24px;
   }
 }
