@@ -21,11 +21,9 @@ function Partnership() {
               <Card.Body>
                 <Card.Img
                   src={`${NETLIFY_BASE_URL}/assets/gradient-studio-logo.png`}
-                  width="300"
-                  height="68"
-                  className="object-fit-contain my-4"
+                  className="object-fit-contain my-4 partnership-image"
                 />
-                <Card.Text>
+                <Card.Text className="partnership-card-text">
                   Gradient Studio comprises highly-skilled venture building team
                   that specializes in turning visions into disruptive
                   businesses. We achieve this by implementing our rigorous,
@@ -52,7 +50,7 @@ function Partnership() {
                   height="68"
                   className="object-fit-contain my-4"
                 />
-                <Card.Text>
+                <Card.Text className="partnership-card-text">
                   At Gradient Tech, we&apos;re passionate about technology and
                   committed to helping organizations of any size to turn their
                   digital ideas into reality. With our expertise and innovative
