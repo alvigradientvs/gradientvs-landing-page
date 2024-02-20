@@ -19,7 +19,12 @@
 }
 
 @media (max-width: 670px) {
+  .first-section-title {
+  font-size: 40px;
+  }
+
   .first-section-desc {
     width: 300px;
+    font-size: 14px;
   }
 }
