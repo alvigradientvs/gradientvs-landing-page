@@ -1,0 +1,15 @@
+.navbar-logo img {
+  width: 235px;
+  height: 60px;
+}
+
+@media (max-width: 670px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+  
+  .navbar-logo img {
+    width: 181px;
+    height: 46px;
+  }
+}

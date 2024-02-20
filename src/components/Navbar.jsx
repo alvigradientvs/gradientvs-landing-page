@@ -1,5 +1,7 @@
 import { Nav, Navbar } from "react-bootstrap";
 
+import "./Navbar.css"
+
 function GradientNav() {
   const NETLIFY_BASE_URL = "https://reliable-raindrop-c9f108.netlify.app/";
 
@@ -11,11 +13,9 @@ function GradientNav() {
       className="navbar navbar-dark px-sm-4 px-lg-auto pt-3"
     >
       <div className="nav-container justify-content-between align-items-center w-100">
-        <Navbar.Brand href="/" className="ms-4 ms-lg-5">
+        <Navbar.Brand href="/" className="ms-4 ms-lg-5 navbar-logo">
           <img
             src={`${NETLIFY_BASE_URL}/assets/gradient-innovation.png`}
-            width="235"
-            height="60"
             className="align-center"
           />
         </Navbar.Brand>
