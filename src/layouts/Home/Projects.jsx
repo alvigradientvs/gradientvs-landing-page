@@ -35,9 +35,9 @@ function Projects() {
         <Col>
           <div className="projects-text mb-2 section-text">PROJECTS</div>
           <div className="mb-3">
-            <h2>Case Study</h2>
+            <h2 className="case-study">Case Study</h2>
           </div>
-          <div className="projects-content-text mb-5 mx-auto content-center">
+          <div className="projects-content-text mb-3 mx-auto">
             Gain insights into our expertise in building and resolving intricate
             business problems through the strategic application of technology
             and our venture playbook methodology.
@@ -56,7 +56,7 @@ function Projects() {
                   height="200px"
                   className="card-image"
                 />
-                <Card.Body>
+                <Card.Body className="projects-card-body">
                   <Card.Title className="my-4">
                     <h3>{projectNumber.title}</h3>
                   </Card.Title>

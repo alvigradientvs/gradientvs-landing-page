@@ -15,7 +15,7 @@ function FirstSection({ formRef }) {
       }}
     >
       <Col className="text-center">
-        <h1 className="my-5 mt-1">
+        <h1 className="my-5 mt-1 first-section-title">
           We <i>turn ideas</i> into thriving ventures
         </h1>
         <h5 className="mx-auto first-section-desc mb-5">

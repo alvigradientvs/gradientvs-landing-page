@@ -4,3 +4,9 @@
   object-fit: cover;
   background: url("../../assets/home-banner.png") no-repeat center bottom/cover;
 }
+
+@media (max-width: 900px) {
+  .home-banner {
+    height: 287px;
+  }
+ }
