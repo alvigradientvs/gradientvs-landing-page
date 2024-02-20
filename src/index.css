@@ -1,6 +1,7 @@
-* {
+html,body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1,
@@ -194,5 +195,11 @@ p {
 
   .h2-poppins {
     font-size: 24px;
+  }
+
+  .card-row {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
   }
 }
